@@ -1,0 +1,55 @@
+body {
+    font-family: cursive;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 30px;
+}
+::placeholder {
+    font-family: cursive;
+}
+input {
+    margin: 5px;
+    font-size: 30px;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.contenedor {
+    padding: 2px 10px 10px 10px;
+}
+.imagen {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    right: 100px; // 100px hacia la derecha relativamente al padre (contenedor)
+}
+.contenedor-grid {
+    align-items: first baseline;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.parrafo {
+    display: block;
+}
+.contenedor-btn {
+    position: relative;
+}
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(128, 128, 128, 1);
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: darkgrey;
+}
